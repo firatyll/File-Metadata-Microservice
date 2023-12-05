@@ -12,6 +12,8 @@ Upon submitting the form, the response will be a JSON object with the following 
 ```json
 {"filename": "example.txt", "filetype": "text/plain", "filesize": 1024}
 ```
+## Delete File
+Upon successfully processing the uploaded file, the server will automatically delete the file for security and privacy reasons.
 ## Installation
 1. Download the project files to your computer.
 2. Navigate to the project directory in the terminal or command prompt.
